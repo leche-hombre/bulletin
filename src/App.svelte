@@ -1,10 +1,14 @@
 <script lang="ts">
-	export let name: string;
+	import Auth from "./auth/Auth.svelte";
+	import firebase from "firebase/app";
+	import * as creds from "../creds.json";
+
+	firebase.initializeApp(creds);
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Auth/>
 </main>
 
 <style>
