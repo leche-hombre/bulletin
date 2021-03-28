@@ -15,6 +15,6 @@
     });
 
 </script>
-<div id="firebaseui-auth-container">
-
+<div>
+    <div id="firebaseui-auth-container"></div>
 </div>
