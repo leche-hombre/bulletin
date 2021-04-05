@@ -2,12 +2,14 @@
 	import Auth from "./auth/Auth.svelte";
 	import firebase from "firebase/app";
 	import * as creds from "../creds.json";
+	import Menu from "./menu/Menu.svelte";
 
 	firebase.initializeApp(creds);
 
 </script>
 
 <main>
+	<Menu/>
 	<Auth/>
 </main>
 
