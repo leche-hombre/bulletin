@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Auth from "./auth/Auth.svelte";
-	import firebase from "firebase/app";
+	import * as firebase from "firebase/app";
 	import * as creds from "../creds.json";
 	import Menu from "./menu/Menu.svelte";
 

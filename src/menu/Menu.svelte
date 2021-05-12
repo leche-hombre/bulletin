@@ -15,7 +15,7 @@
             <HeaderNavItem href="/" text="settings" />
         </HeaderNavMenu>
     </HeaderNav>
-    <Grid container justify="flex-end">
+    <Grid class="menu-grid" container justify="flex-end">
         <UserAvatarFilled32 justify="flex-end"/>
     </Grid>
 
@@ -30,3 +30,11 @@
         </Row>
     </Grid>
 </Content>
+
+<style>
+
+    .menu-grid {
+        margin-right: 0;
+    }
+
+</style>
